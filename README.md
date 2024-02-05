@@ -1,4 +1,4 @@
-# pandochceres
+# pandochceres ([fork](https://github.com/danielleberre/pandochceres))
 
 HCERES style pour pandoc.
 
