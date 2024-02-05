@@ -268,6 +268,9 @@ $if(institute)$
 \providecommand{\institute}[1]{}
 \institute{$for(institute)$$institute$$sep$ \and $endfor$}
 $endif$
+$if(date)$
+\date{$date$}
+$endif$
 \pagestyle{fancy}
 \begin{document}
 
@@ -286,12 +289,10 @@ $endif$
 {\raggedright\color{hceresred}\large Vague E
 }
 \par\vskip 2cm
-{\raggedright\color{hcerespurple}\large $date$}
+{\raggedright\color{hcerespurple}\large\makeatletter\@date\makeatother}
 
 \par
 \end{tcolorbox}
-
-\date{$date$}
 \end{titlepage}
 
 $if(abstract)$
