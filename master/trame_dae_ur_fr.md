@@ -320,3 +320,5 @@ L’unité expose, dans une vision prospective, sa stratégie partenariale avec 
 
 L’unité justifie la mise en cohérence de sa stratégie de recherche avec ses moyens et son organisation : comment son organisation et ses évolutions ont servi ses objectifs scientifiques et comment sa future organisation et ses demandes de moyens répondront à ses ambitions. L’unité précise, dans ce paragraphe, les effectifs, les moyens à mobiliser et le mode de structuration (organisation,  positionnement  et contribution des équipes, synergies entre les équipes, plateformes) pour accompagner ses orientations, ses objectifs scientifiques et ses choix stratégiques. Elle présente un plan d’actions portant sur les nouveaux enjeux des laboratoires : science et société, science ouverte, impact environnemental des activités de l'unité, parité de genre, intégrité scientifique par exemple.
 }
+
+# Annexes {-}
