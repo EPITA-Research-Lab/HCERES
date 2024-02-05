@@ -90,4 +90,21 @@
 
 \pagestyle{fancy}
 
+\AtBeginDocument{%
+  \begin{titlepage}
+    \tikz[remember picture,overlay] \node[inner sep=0pt] at ([xshift=8.5cm,yshift=-3cm]current page.north west){\raisebox{-.5\height}{\includegraphics[width=4cm]{hcereslogo}}  \Large\bf\color{hceresred} Département d’évaluation de la recherche};
+    \tikz[remember picture,overlay] \node[inner sep=0pt] at ([xshift=-8.2cm,yshift=-3cm]current page.east){\includegraphics[width=16cm]{hceresfront}};
+    \begin{tcolorbox}[standard jigsaw, opacityback=0, opacityframe=0,boxsep=.7cm,left skip=4cm, right skip=-4cm, before skip=5cm]
+      {\color{hcerespurple}\Large\makeatletter\@title\makeatother}
+      \vskip 2cm
+      {\raggedright\color{hceresred}\bf\large CAMPAGNE D'EVALUATION 2024-2025
+      }\\
+      {\raggedright\color{hceresred}\large Vague E
+      }
+      \par\vskip 2cm
+      {\raggedright\color{hcerespurple}\large\makeatletter\@date\makeatother}
+      \par
+    \end{tcolorbox}
+  \end{titlepage}}
+
 \endinput
