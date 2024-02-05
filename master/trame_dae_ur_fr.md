@@ -307,6 +307,24 @@ L’unité décrit son activité de diffusion de ses résultats auprès des acte
 \instructions{Pour chacune des équipes, on choisit parmi les domaines les références jugées pertinentes pour l’équipe. S’il n’est ni opportun ni nécessaire d’aborder toutes les références, celles relatives à la production, à l’attractivité et à l’inscription dans la société doivent être privilégiées en reprenant cette séquence.
 Dans l’éventualité où toutes les références devraient être abordées, on veille à respecter l’ordre de présentation.}
 
+### Équipe 1 (skelette à reproduire pour chaque équipe) {-}
+
+#### Thématiques scientifiques et enjeux {-}
+- Thématiques scientifiques
+- Positionnement scientifique par rapport au contexte international
+- Avancées scientifiques majeures dans la période
+- Animation scientifique de l’équipe
+
+#### Profil d’activités liées à la recherche {-}
+
+#### Prise en compte des recommandations du précédent rapport {-}
+
+#### Introduction du portfolio {-}
+
+#### Auto-évaluation de l’équipe {-}
+
+#### Trajectoire de l’équipe {-}
+
 # Trajectoire de l’unité
 
 \instructions{La trajectoire est entendue selon deux dimensions : la dynamique et l’ambition de recherche, d’une part, l’organisation et la vie du laboratoire, d’autre part. Elle est décrite à l’échelle de l’unité et peut être ensuite déclinée à celle des équipes.
