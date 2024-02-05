@@ -1,5 +1,5 @@
 ---
-title: Unité de recherche 
+title: DOCUMENT D’AUTOÉVALUATION DES UNITÉS DE RECHERCHE
 date: Septembre 2023
 myheader: Document d'autoévaluation des unités de recherche
 geometry: "top=2cm, bottom=1.5cm, left=1cm, right=1cm"
