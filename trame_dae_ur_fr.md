@@ -2,7 +2,7 @@
 title: Unité de recherche 
 date: Septembre 2023
 myheader: Document d'autoévaluation des unités de recherche
-geometry: "top=1.25cm, bottom=0.8cm, left=2cm, right=2cm"
+geometry: "top=2cm, bottom=1.5cm, left=1cm, right=1cm"
 numbersections: true
 ---
 \instructions{L’unité rédige ce document en complétant les rubriques ci-dessous et en suivant le plan indiqué. Les parties en vert dans le texte sont des repères pour l’autoévaluation. Elles doivent être supprimées dans le document rédigé.}
