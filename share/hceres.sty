@@ -92,6 +92,15 @@
 
 \pagestyle{fancy}
 
+\newcommand*\usection[1]{%
+  \section*{#1}\addcontentsline{toc}{section}{#1}}
+\newcommand*\usubsection[1]{%
+  \subsection*{#1}\addcontentsline{toc}{subsection}{#1}}
+\newcommand*\usubsubsection[1]{%
+  \subsubsection*{#1}\addcontentsline{toc}{subsubsection}{#1}}
+\newcommand*\uparagraph[1]{%
+  \paragraph*{#1}\addcontentsline{toc}{paragraph}{#1}}
+
 \AtBeginDocument{%
   \begin{titlepage}
     \tikz[remember picture,overlay] \node[inner sep=0pt] at ([xshift=8.5cm,yshift=-3cm]current page.north west){\raisebox{-.5\height}{\includegraphics[width=4cm]{hcereslogo}}  \Large\bf\color{hceresred} Département d’évaluation de la recherche};
