@@ -1,9 +1,7 @@
-SRC_DIR := ../src
-DOC     := hceres
+SHARE := ../share
+SRC   := template
 
-SRC     := $(SRC_DIR)/$(DOC)
-LATEXMK := TEXINPUTS=.:$(SRC_DIR): BIBINPUTS=$(SRC_DIR): \
-	   latexmk -pdf -shell-escape
+LATEXMK := TEXINPUTS=.:$(SHARE): BIBINPUTS=$(SHARE): latexmk -pdf
 
 
 all:
