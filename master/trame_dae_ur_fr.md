@@ -1,6 +1,8 @@
 ---
 title: DOCUMENT D’AUTOÉVALUATION DES UNITÉS DE RECHERCHE
 date: Janvier 2024
+campaign: 2024--2025
+wave: E
 myheader: Document d'autoévaluation des unités de recherche
 geometry: "top=2cm, bottom=1.5cm, left=1cm, right=1cm"
 numbersections: true

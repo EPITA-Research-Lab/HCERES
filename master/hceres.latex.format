@@ -245,7 +245,7 @@ $endfor$
 \lhead{$myheader$}
 \chead{}
 \rhead{\raisebox{-.5\height}{\includegraphics[width=1.5cm]{hcereslogo}}}
-\lfoot{Campagne d’évaluation  2024-2025 – Vague E\hspace{1cm} Département d’évaluation de la recherche}
+\lfoot{Campagne d’évaluation \@campaign{} – Vague \@wave\hspace{1cm} Département d’évaluation de la recherche}
 \cfoot{}
 \rfoot{\thepage}
 \tcbsetforeverylayer{colframe=hceresred,colback=white,sharp corners,boxrule=1pt,boxsep=5mm}
@@ -254,6 +254,8 @@ $if(noinstructions)$
 $else$
 \newcommand{\instructions}[1]{{\em \color{hceresgreen}#1}}
 $endif$
+\newcommand\campaign[1]{\def\@campaign{#1}}
+\newcommand\wave[1]{\def\@wave{#1}}
 $if(title)$
 \title{$title$$if(thanks)$\thanks{$thanks$}$endif$}
 $endif$
@@ -271,6 +273,12 @@ $endif$
 $if(date)$
 \date{$date$}
 $endif$
+$if(campaign)$
+\campaign{$campaign$}
+$endif$
+$if(wave)$
+\wave{$wave$}
+$endif$
 \pagestyle{fancy}
 \begin{document}
 
@@ -284,9 +292,9 @@ $endif$
 
 
 \vskip 2cm
-{\raggedright\color{hceresred}\bf\large CAMPAGNE D'EVALUATION 2024-2025
+{\raggedright\color{hceresred}\bf\large CAMPAGNE D'EVALUATION \@wave
 }\\
-{\raggedright\color{hceresred}\large Vague E
+{\raggedright\color{hceresred}\large Vague \@wave
 }
 \par\vskip 2cm
 {\raggedright\color{hcerespurple}\large\makeatletter\@date\makeatother}
