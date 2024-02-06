@@ -94,8 +94,8 @@
 \campaign{2024--2025}
 \wave{E}
 \pagestyle{fancy}
-\begin{document}
 
+\AtBeginDocument{%
 \begin{titlepage}
 \tikz[remember picture,overlay] \node[inner sep=0pt] at ([xshift=8.5cm,yshift=-3cm]current page.north west){\raisebox{-.5\height}{\includegraphics[width=4cm]{hcereslogo}}  \Large\bf\color{hceresred} Département d’évaluation de la recherche};
 
@@ -115,7 +115,10 @@
 
 \par
 \end{tcolorbox}
-\end{titlepage}
+\end{titlepage}}
+
+
+\begin{document}
 
 
 \instructions{L’unité rédige ce document en complétant les rubriques ci-dessous et en suivant le plan indiqué. Les parties en vert dans le texte sont des repères pour l’autoévaluation. Elles doivent être supprimées dans le document rédigé.}

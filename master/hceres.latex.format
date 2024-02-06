@@ -280,8 +280,8 @@ $if(wave)$
 \wave{$wave$}
 $endif$
 \pagestyle{fancy}
-\begin{document}
 
+\AtBeginDocument{%
 \begin{titlepage}
 \tikz[remember picture,overlay] \node[inner sep=0pt] at ([xshift=8.5cm,yshift=-3cm]current page.north west){\raisebox{-.5\height}{\includegraphics[width=4cm]{hcereslogo}}  \Large\bf\color{hceresred} Département d’évaluation de la recherche};
 
@@ -301,7 +301,10 @@ $endif$
 
 \par
 \end{tcolorbox}
-\end{titlepage}
+\end{titlepage}}
+
+
+\begin{document}
 
 $if(abstract)$
 \begin{abstract}
