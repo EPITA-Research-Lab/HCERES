@@ -282,13 +282,13 @@ $endif$
 \pagestyle{fancy}
 
 \newcommand*\usection[1]{%
-  \section*{#1}\addcontentline{toc}{section}{#1}}
+  \section*{#1}\addcontentsline{toc}{section}{#1}}
 \newcommand*\usubsection[1]{%
-  \subsection*{#1}\addcontentline{toc}{subsection}{#1}}
+  \subsection*{#1}\addcontentsline{toc}{subsection}{#1}}
 \newcommand*\usubsubsection[1]{%
-  \subsubsection*{#1}\addcontentline{toc}{subsubsection}{#1}}
+  \subsubsection*{#1}\addcontentsline{toc}{subsubsection}{#1}}
 \newcommand*\uparagraph[1]{%
-  \paragraph*{#1}\addcontentline{toc}{paragraph}{#1}}
+  \paragraph*{#1}\addcontentsline{toc}{paragraph}{#1}}
 
 \AtBeginDocument{%
 \begin{titlepage}
